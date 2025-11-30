@@ -1,0 +1,219 @@
+body {
+    font-family: "Inter", sans-serif;
+    margin: 0;
+}
+.container {
+    width: 100%;
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 0 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+a {
+    text-decoration: none;
+    color: inherit;
+}
+li {
+    list-style: none;
+}
+.nav-bar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    max-width: 600px;
+    padding: 2rem;
+    flex-wrap: nowrap;
+}
+.nav-options {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    flex-wrap: nowrap;
+}
+.nav-bar {
+    font-family: "Albert Sans", Arial, Helvetica, sans-serif;
+    font-weight: 500;
+}
+.icon-1 {
+    width: 25px;
+    padding-top: 5px;
+    cursor: pointer;
+}
+.main-head {
+    font-size: 40px;
+    margin: 0;
+}
+.main-head-sub {
+    margin: 0;
+    color: rgb(146, 146, 146);
+    font-size: 25px;
+    font-weight: 500;
+}
+.information-1 {
+    font-size: 18px;
+    margin-bottom: 0;
+    flex-wrap: wrap;
+    padding-right: 2rem;
+}
+.button-1 {
+    background-color: black;
+    color: white;
+    padding: 0.7rem 1.2rem;
+    font-size: 15px;
+    border-radius: 20px;
+    margin-top: 0.7rem;
+    margin-bottom: 2rem;
+    border-style: solid;
+    border-color: black;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+}
+.button-1:hover {
+    background-color: white;
+    color: black;
+}
+.button-1:active {
+    opacity: 0.6;
+}
+.my-pic {
+    width: 250px;
+}
+.mail-icon, .workshop-icon, .layers-icon {
+    width: 25px;
+}
+.intro-area {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.intro-area-sub {
+    display: flex;
+    flex-direction: column;
+    row-gap: 1rem;
+}
+.intro-area-sub button, .say-hi-button, .workshop-button {
+    padding: 0.7rem 1.2rem;
+    font-size: 15px;
+    border-radius: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-style: solid;
+    border-color: black;
+    border-width: 1px;
+    font-weight: bold;
+    cursor: pointer;
+    background-color: rgb(238, 238, 238);
+}
+.intro-area-sub button:active {
+    opacity: 0.6;
+}
+h4 {
+    font-size: 30px;
+    text-align: center;
+}
+hr {
+    border: none;
+    height: 1px;
+    background-color: black;
+    width: 100%;
+    margin-top: 2rem;
+}
+.projects {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    margin-bottom: 1rem;
+}
+.project-1, .project-2, .project-3 {
+    width: 180px;
+    height: 130px;
+    border-style: solid;
+    border-color: black;
+    border-radius: 5px;
+    border-width: 1px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.journal {
+    font-size: 15px;
+    font-weight: bold;
+    text-align: right;
+    width: 100%;
+    align-self: flex-end;
+    margin: 0;
+    padding-left: 10px;
+    transition: text-decoration 0.5s;
+    cursor: pointer;
+    font-style: italic;
+}
+.journal:hover {
+    text-decoration: underline;
+}
+.journal:active {
+    opacity: 0.5;
+}
+.services-head {
+    font-size: 30px;
+    font-weight: bold;
+    margin-top: 1rem;
+    align-self: flex-start;
+}
+.services {
+    display: flex;
+    gap: 1rem;
+    margin-top: 2rem;
+}
+.socials {
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+    margin-top: 2rem;
+}
+.socials img {
+    width: 30px;
+    cursor: pointer;
+}
+.level {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+.level button {
+    background-color: white;
+    border: none;
+    border-radius: 8px;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+    padding: 0.1rem 0.7rem;
+    cursor: pointer;
+    margin-bottom: 7rem;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.level button:active {
+    background-color: black;
+    color: white;
+}
+.footer, .footer p {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin: 0;
+    font-size: 12px;
+    margin-bottom: 0.5rem;
+    color: rgb(88, 88, 88);
+}
+.others {
+    font-style: italic;
+}
