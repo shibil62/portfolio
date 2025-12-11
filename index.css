@@ -217,3 +217,27 @@ hr {
 .others {
     font-style: italic;
 }
+.top {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 1.5rem;
+}
+.heading {
+    font-weight: bold;
+    font-size: 1rem;
+}
+.date {
+    color: rgb(100, 100, 100);
+    font-style: italic;
+    font-size: 0.8rem;
+}
+.exp {
+    font-size: 0.9rem;
+}
+hr {
+    color: rgb(131, 131, 131);
+    height: 0.080px;
+}
+.change {
+    padding-top: 1rem;
+}
