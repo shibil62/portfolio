@@ -96,7 +96,7 @@ li {
     flex-direction: column;
     row-gap: 1rem;
 }
-.intro-area-sub button, .say-hi-button, .workshop-button {
+.intro-area-sub button, .say-hi-button, .workshop-button, .lc-button {
     padding: 0.7rem 1.2rem;
     font-size: 15px;
     border-radius: 30px;
